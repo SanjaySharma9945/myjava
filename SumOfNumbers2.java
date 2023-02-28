@@ -6,9 +6,9 @@ public static void main(String args[])
 int x, y, sum;  
 Scanner sc = new Scanner(System.in);  
 System.out.print("Enter the first number: ");  1
-x = sc.nextInt();  
+x = Integer.parseInt(args[1]);  
 System.out.print("Enter the second number: ");  
-y = sc.nextInt();  
+y = Integer.parseInt(args[1]);  
 sum = sum(x, y);  
 System.out.println("The sum of two numbers x and y is: " + sum);  
 }  
