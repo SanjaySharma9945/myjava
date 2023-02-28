@@ -6,7 +6,7 @@ public static void main(String args[])
 int x, y, sum;  
 Scanner sc = new Scanner(System.in);  
 System.out.print("Enter the first number: ");  1
-x = Integer.parseInt(args[1]);  
+x = Integer.parseInt(args[0]);  
 System.out.print("Enter the second number: ");  
 y = Integer.parseInt(args[1]);  
 sum = sum(x, y);  
